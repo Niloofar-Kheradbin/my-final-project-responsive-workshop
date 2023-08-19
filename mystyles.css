@@ -3,10 +3,6 @@
   --default-font-family: "Poppins", sans-serif;
   --template-color: #6c63ff;
 }
-.container {
-  width: 100%;
-  margin: 100px auto;
-}
 h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
@@ -23,6 +19,14 @@ p {
 }
 img {
   max-width: 100%;
+}
+section img {
+  max-width: 100px;
+  border-radius: 10px;
+}
+.container {
+  width: 100%;
+  margin: 100px auto;
 }
 .btn-template {
   background: var(--template-color);
