@@ -29,6 +29,9 @@ section img {
   max-width: 80px;
   border-radius: 10px;
 }
+.logo {
+  max-width: 100px;
+}
 .description {
   text-align: center;
   margin-top: 15px;
@@ -37,13 +40,15 @@ section img {
   font-family: var(--default-font-family);
   font-size: 24px;
 }
-.container {
+.page-container {
   width: 100%;
   margin: 100px auto;
+  background-color: #f9f7fe;
 }
 .container-content {
   margin: 200px 50px;
 }
+
 .btn-template {
   background: var(--template-color);
   border-color: #6c63ff;
