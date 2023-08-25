@@ -30,7 +30,22 @@ section img {
   border-radius: 10px;
 }
 .logo {
-  max-width: 100px;
+  max-width: 150px;
+  background-color: azure;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.4;
+}
+.menu a {
+  text-decoration: none;
+  color: #272142;
+  font-weight: 400;
+}
+.menu a:hover {
+  color: var(--template-color);
+  transition: ease-in-out;
 }
 .description {
   text-align: center;
@@ -64,4 +79,10 @@ button:hover {
   color: blue;
 }
 @media (max-width: 900px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0.4;
+  }
 }
