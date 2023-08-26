@@ -2,6 +2,7 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
   --template-color: #6c63ff;
+  --secondary-color: #f9f7fe;
 }
 h1 {
   font-family: var(--heading-font-family);
@@ -29,6 +30,25 @@ section img {
   max-width: 80px;
   border-radius: 10px;
 }
+footer {
+  display: block;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer .social-links a {
+  color: var(--template-color);
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  padding: 10px 15px;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--template-color);
+  transition: all 100ms ease-in-out;
+}
 .logo {
   max-width: 150px;
   background-color: azure;
@@ -45,7 +65,7 @@ section img {
 }
 .menu a:hover {
   color: var(--template-color);
-  transition: ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 .description {
   text-align: center;
@@ -74,6 +94,7 @@ section img {
   line-height: 27px;
   padding: 15px 30px;
 }
+
 button:hover {
   transition: ease-in-out;
   color: blue;
