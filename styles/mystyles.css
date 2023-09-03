@@ -63,6 +63,9 @@ footer .social-links a:hover {
   color: #272142;
   font-weight: 400;
 }
+.menu a.active {
+  color: var(--template-color);
+}
 .menu a:hover {
   color: var(--template-color);
   transition: all 100ms ease-in-out;
@@ -81,7 +84,7 @@ footer .social-links a:hover {
   background-color: #f9f7fe;
 }
 .container-content {
-  margin: 200px 50px;
+  margin: 100px 50px;
 }
 
 .btn-template {
